@@ -39,7 +39,8 @@ let config: VscodeConfig = {
 	completionProvider: {
 		maxItems: 100,
 		addUseDeclaration: true,
-		backslashPrefix: false
+		backslashPrefix: false,
+		namespaceSortOrder: []
 	},
 	diagnosticsProvider: {
 		debounce: 1000,
